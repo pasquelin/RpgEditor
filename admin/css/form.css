@@ -1,0 +1,374 @@
+/* Form */
+option[selected="selected"] {
+		background-color:#5c9b48;
+		font-weight:bold;
+		color:#FFF;
+}
+option {
+		font-weight:normal;
+		font-size:11px;
+		-khtml-appearance:none;
+		-webkit-appearance:none;
+		padding:2px;
+}
+.row_form {
+		margin: 5px 0;
+}
+.form-css .form-line {
+		clear: left;
+		margin: 0;
+		padding: 5px 0 8px 0;
+		padding-left: 155px;
+		height: 1%;
+}
+.form-css .form-line .form-label, .form-css .form-line .form-label2 {
+		float: left;
+		margin-left: -155px;
+		width: 170px;
+}
+.form-css .form-line-2 {
+		clear: left;
+		margin: 0;
+		padding: 5px 0 8px 0;
+		height: 1%;
+}
+.form-css .form-line-2 .form-label {
+		display: block;
+		padding-bottom: 5px;
+}
+.form-css .form-label {
+		font-weight: bold;
+		padding: 10px 0 0 0;
+}
+.form-css .form-label2 {
+		font-weight: bold;
+		padding: 3px 0 0 0;
+}
+.form-css .input-radio {
+		margin-top: 10px;
+}
+.form-css .input-text {
+		width: 300px;
+		margin-right: 5px;
+}
+.form-css .input-select, .form-css .input-select-multiple, .form-css .input-select2 {
+		width: 320px;
+		margin-right: 5px;
+}
+.form-css .input-textarea {
+		width: 95%;
+		margin-right: 5px;
+}
+/* Label */
+.label {
+		padding:0 0 10px 0;
+		clear:both;
+		position:relative;
+		font-weight:bold;
+}
+.label .inputbox {
+		float:right;
+		margin-bottom:10px;
+}
+.label .selectbox {
+		float:right;
+}
+.label ul {
+		float:right;
+		width:80%;
+		list-style-type:none;
+		margin:0;
+		padding:0;
+}
+.label ul li {
+		margin:0;
+		padding:0;
+}
+.no-background-img {
+		background-image:none;
+}
+.button_vert {
+		background-position:0 -100px;
+		border-color: #618a38 #618a38 #40611f;
+		color:#FFF;
+}
+.button_vert:hover {
+		-moz-box-shadow: 2px 2px 4px #5b8f27 inset;
+		-webkit-box-shadow: 2px 2px 4px #5b8f27 inset;
+}
+.button_bleu {
+		background-position:0 -50px;
+		border-color: #3f5b9e #3f5b9e #213a78;
+		color:#FFF;
+}
+.button_bleu:hover {
+		-moz-box-shadow: 2px 2px 4px #405891 inset;
+		-webkit-box-shadow: 2px 2px 4px #405891 inset;
+}
+.button_rouge {
+		background-position:0 -242px;
+		border-color: #be2527 #be2527 #a40f11;
+		color:#FFF;
+}
+.button_rouge:hover {
+		-moz-box-shadow: 2px 2px 4px #b31b1d inset;
+		-webkit-box-shadow: 2px 2px 4px #b31b1d inset;
+}
+.button-small {
+		height: 14px;
+		padding: 5px 10px 6px;
+		border-color: #aaa #aaa #999;
+}
+.button-image {
+		border:1px solid #999;
+		background: #ccc url('../images/template/button.png') 0 0 repeat-x;
+		padding:5px;
+		margin:0 3px 0 0;
+		-moz-box-shadow: 2px 2px 4px #CCC;
+		-webkit-box-shadow: 2px 2px 4px #CCC;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+}
+.button-image:hover, .button-image-actif {
+		-moz-box-shadow: 2px 2px 4px #CCC inset;
+		-webkit-box-shadow: 2px 2px 4px #CCC inset;
+}
+.button-image-actif {
+		background-position:0 -200px;
+}
+input.button-small {
+		height: 26px;
+		padding-top: 3px;
+}
+.button-small:hover {
+		-moz-box-shadow: 0 0 2px rgba(45, 124, 232, 0.6);
+		-webkit-box-shadow: 0 0 2px rgba(45, 124, 232, 0.6);
+}
+.button-disabled {
+		color: #999;
+}
+.button-disabled:hover {
+		color: #999;
+		-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+		-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+/* Input */
+.input-textarea, .input-text {
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		color: #666;
+		background-color: #fff;
+		padding: 5px;
+		border: 1px solid #d0d0d0;
+		line-height:1.2em;
+		-webkit-appearance:none;
+		-moz-box-shadow: 0 2px 2px #efefef inset;
+		-webkit-box-shadow: 0 2px 2px #efefef inset;
+		-khtml-appearance:none;
+		-webkit-appearance:none;
+		resize: none;
+}
+.input-select {
+		margin:0px;
+		padding:4px 2px 4px 4px;
+		background-image: url('../images/template/button.png');
+		background-repeat:repeat-x;
+		background-color:transparent;
+		color: #444;
+		border-color: #bbb #bbb #888;
+		border-style: solid;
+		border-width: 1px;
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+		-moz-box-shadow:0 1px 0 rgba(0, 0, 0, 0.1);
+		-webkit-box-shadow:0 1px 0 rgba(0, 0, 0, 0.1);
+		cursor: pointer;
+		-khtml-appearance:none;
+		-webkit-appearance:none;
+		font-weight:bold;
+		font-size:12px;
+}
+.input-select-multiple {
+		background-image: url('../images/template/button2.png');
+}
+.input-select2 {
+		color: #666;
+		border: 1px solid #d0d0d0;
+		resize: none;
+		margin:0px;
+		padding:4px 2px 4px 4px;
+		-khtml-appearance:none;
+		-webkit-appearance:none;
+}
+.input-option {
+		border-style:dotted;
+		display:inline;
+}
+.input-radio {
+		vertical-align: text-top;
+		margin: 0;
+		margin-right: 3px;
+		display: inline;
+		width: auto;
+}
+.input-checkbox {
+		vertical-align: text-top;
+		margin: 0;
+		margin-right: 5px;
+}
+.input-text-small {
+		font-size: 14px;
+		padding: 3px;
+}
+input:focus, textarea:focus {
+		outline:0;
+}
+textarea {
+		resize:vertical;
+}
+.inputbox, .selectbox {
+		-moz-border-radius:3px;
+		-webkit-border-radius: 3px;
+		-moz-box-shadow:0 2px 2px #EFEFEF inset;
+		-webkit-box-shadow:0 2px 2px #EFEFEF inset;
+		background-color:#FFFFFF;
+		border:1px solid #DDDDDD;
+		color:#444444;
+		display:inline-block;
+		font-size:14px;
+		padding:6px 10px;
+		font-family:Arial, Helvetica, sans-serif;
+		-khtml-appearance:none;
+		-webkit-appearance:none;
+}
+.button-normal {
+		height:31px;
+		padding:6px 10px;
+}
+.button-small {
+		height:15px;
+		padding:9px 10px 5px 10px;
+}
+.button-small a {
+		color:#444444;
+}
+.button, .paging_full_numbers span.paginate_button, .paging_full_numbers span.paginate_active {
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+		-moz-box-shadow:0 1px 0 rgba(0, 0, 0, 0.1);
+		-webkit-box-shadow:0 1px 0 rgba(0, 0, 0, 0.1);
+		background:url('../images/bg/button.png'	) repeat-x scroll 0 0 #EEEEEE;
+		border-color:#BBBBBB #BBBBBB #888888;
+		border-style:solid;
+		border-width:1px;
+		color:#444444;
+		cursor:pointer;
+		display:inline-block;
+		font-size:12px;
+		font-weight:bold;
+}
+.button:hover, .paging_full_numbers span.paginate_active {
+		-webkit-box-shadow: 0 0 4px rgba(92, 155, 72, 0.6);
+		-moz-box-shadow: 0 0 4px rgba(92, 155, 72, 0.6);
+		border-color:#999 #999 #888;
+}
+.inputbox:focus, .inputbox:hover, .button:focus {
+		outline:0;
+}
+.button_valid {
+		position:absolute;
+		top:0;
+		right:0;
+}
+.menu_button {
+		background-image:url('../images/admin/menu/bg.png');
+		width:150px;
+		float:left;
+		text-align:center;
+		vertical-align:middle;
+		padding:30px 0 30px 0;
+}
+.button_valide_icon {
+		float:left;
+		-moz-border-radius:3px;
+		-moz-box-shadow:0 1px 0 rgba(0, 0, 0, 0.1);
+		-webkit-border-radius:3px;
+		-webkit-box-shadow:0 1px 0 rgba(0, 0, 0, 0.1);
+		background:url('../images/bg/button.png'	) repeat-x scroll 0 0 #EEEEEE;
+		border-color:#BBBBBB #BBBBBB #888888;
+		border-style:solid;
+		border-width:1px;
+		cursor:pointer;
+		display:inline-block;
+		font-size:12px;
+		font-weight:bold;
+		margin-left:10px;
+		-khtml-appearance:none;
+		-webkit-appearance:none;
+}
+.menu_button:hover {
+		background-image:url('../images/admin/menu/bg_hover.png');
+}
+.buttonNavigation {
+		float: left;
+		margin-right: 50px;
+}
+.titre_menu {
+		padding:5px 10px 5px 10px;
+		font-weight:bold;
+		float:left;
+}
+/* Validate */
+div.errorValidate {
+		color:#900;
+		margin: 3px 0 0 16px;
+}
+div.validValidate {
+		color:#090;
+		margin: 3px 0 0 16px;
+}
+input.errorValidate, textarea.errorValidate {
+		border:1px solid #900;
+		background-color:#FCC;
+}
+div.error {
+		color:#A71216;
+		font-weight:bold;
+		font-style:oblique;
+		font-size:11px;
+		margin:2px;
+}
+/* mise en page pour les partie map */
+.optionTilesets {
+		padding: 6px 8px 3px 0;
+		float:left;
+}
+.optionTilesets2 {
+		padding: 0 0 0 5px;
+		float:right;
+}
+.optionTilesets3 {
+		padding-bottom: 8px;
+}
+
+.input-select-editor {
+		border:1px solid #999;
+		background: url('../images/template/button.png') 0 0 repeat-x;
+		padding: 5px 8px;
+		margin:0 4px 0 0;
+		-moz-box-shadow: 2px 2px 4px #CCC;
+		-webkit-box-shadow: 2px 2px 4px #CCC;
+		-khtml-appearance:none;
+		-webkit-border-radius:0;
+		height:32px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		font-weight: bold;
+		font-size:12px;
+		color: #444;
+		cursor:pointer;
+}
+.input-select-editor:hover {
+		-moz-box-shadow: 2px 2px 4px #CCC inset;
+		-webkit-box-shadow: 2px 2px 4px #CCC inset;
+}

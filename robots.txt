@@ -1,0 +1,21 @@
+User-agent: *
+
+Disallow: /admin/
+
+Disallow: /application/
+
+Disallow: /cache/
+
+Disallow: /install/
+
+Disallow: /logs/
+
+Disallow: /modules/
+
+Disallow: /socket/
+
+Disallow: /system/
+
+Disallow: /crossdomain.xml
+
+Disallow: /htaccess.txt

@@ -1,0 +1,34 @@
+.imageItem {
+	padding:20px;
+	background-color:#000;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-box-shadow: 2px 2px 4px #CCC;
+	-webkit-box-shadow: 2px 2px 4px #CCC;
+}
+.vign_mod {
+	border:1px solid #999;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	background-color:#FFF;
+	padding:2px;
+	cursor:pointer;
+}
+
+.vign_mod:hover {
+	background-color:#E9E9E9;
+	border:1px solid #FC0;
+}
+
+.selected {
+	background-color:#FC3;
+}
+
+.left_calcul {
+		float: left;
+		padding: 0 15px;
+}
+
+#job_id {
+		height: auto;
+}

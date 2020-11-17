@@ -1,0 +1,14 @@
+.imageBg {
+	padding:16px;
+	background-color:#000;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-box-shadow: 2px 2px 4px #CCC;
+	-webkit-box-shadow: 2px 2px 4px #CCC;
+}
+.imageFight {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-box-shadow: 2px 2px 4px #CCC;
+	-webkit-box-shadow: 2px 2px 4px #CCC;
+}

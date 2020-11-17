@@ -1,0 +1,198 @@
+body, html {
+    overflow: hidden;
+    margin: 0;
+    padding:0;
+    width:100%;
+    height:100%;
+}
+
+#selectAction select {
+    -webkit-appearance: none;
+    display: -moz-inline-box;
+    display: inline-block;
+    padding: 4px 9px;
+    background: #eee url('../images/template/button.png') 0 0 repeat-x;
+    font-size: 11px;
+    font-weight: bold;
+    color: #444;
+    border-color: #bbb #bbb #888;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -khtml-appearance: none;
+    -webkit-appearance: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+section#main {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    margin:0;
+    padding:0;
+}
+
+#selectAction {
+    position: absolute;
+    top: 22px;
+    left: 220px;
+    right: 220px;
+    z-index: 10;
+}
+
+#selectAction input, #selectAction select {
+    float: left;
+}
+.spacerMenu {
+    float: left;
+    margin: 5px;
+}
+#controlCube {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    height: 200px;
+    width: 250px;
+    z-index: 20;
+    display: none;
+}
+
+#gui-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+}
+
+.cubeBackground {
+    border: 1px solid #ccc;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    -moz-box-shadow: 0 0 2px 1px #CCC;
+    -webkit-box-shadow: 0 0 2px 1px #CCC;
+    box-shadow: 0 0 2px 1px #CCC;
+}
+
+#bloc_1 {
+    top: 10px;
+    left: 70px;
+}
+
+#bloc_2 {
+    top: 70px;
+    left: 10px;
+}
+
+#bloc_3 {
+    top: 70px;
+    left: 70px;
+}
+
+#bloc_4 {
+    top: 70px;
+    left: 130px;
+}
+
+#bloc_5 {
+    top: 70px;
+    left: 190px;
+}
+
+#bloc_6 {
+    top: 130px;
+    left: 70px;
+}
+
+.material {
+    width: 32px;
+    height: 32px;
+    margin: 5px;
+    float: left;
+    border: 1px solid #FFF;
+    background-size: 32px;
+}
+
+.material:hover {
+    border: 1px solid #CCC;
+}
+
+#allCube {
+    top: 7px;
+    right: 10px;
+    position: absolute;
+    text-align: right;
+    font-weight: bold;
+}
+#allCube img {
+    margin-top: 2px;
+}
+
+#allCube .cubeBackground {
+    border: 1px solid #ccc;
+    height: 34px;
+    width: 34px;
+    position: relative;
+    -moz-box-shadow: 0 0 2px 1px #CCC;
+    -webkit-box-shadow: 0 0 2px 1px #CCC;
+    box-shadow: 0 0 2px 1px #CCC;
+}
+
+#noCursor {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 10;
+}
+
+#instructions {
+
+    width: 100%;
+    height: 100%;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+
+    color: #ffffff;
+    text-align: center;
+
+    cursor: pointer;
+
+}
+
+.dg.ac {
+    z-index: 9999999;
+}
+
+#my-gui-container{
+    margin-top: 20px;
+}

@@ -1,0 +1,24 @@
+.contenerLogin {
+	width:520px;
+	margin: 70px auto;
+	position: relative;
+}
+
+.contenerLogin header h3 {
+		display: block;
+		width: 90%;
+		float: left;
+}
+
+fieldset {
+		margin: 20px 0;
+		padding: 10px;
+		position: relative;
+}
+
+.imgLock {
+		position: absolute;
+		right:0;
+		top:5px;
+		
+}

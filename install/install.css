@@ -1,0 +1,195 @@
+body {
+		margin: 0px;
+		padding: 0px;
+		color: #333;
+		font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+		font-size: 11px;
+		line-height: 1.28;
+		text-align: left;
+		background: url('../images/template/bg-body.png') repeat scroll 0 0 #E7E7E7;
+}
+a {
+		color: #a52a25;
+		cursor: pointer;
+		text-decoration: none;
+}
+h1 {
+		font-size: 20px;
+		font-weight: normal;
+		letter-spacing: -0.03em;
+		margin: 25px 0 15px;
+}
+h2 img {
+		margin-right: 10px;
+		vertical-align: bottom;
+}
+pre {
+		-moz-border-bottom-colors: none;
+		-moz-border-image: none;
+		-moz-border-left-colors: none;
+		-moz-border-right-colors: none;
+		-moz-border-top-colors: none;
+		background: none repeat scroll 0 0 #F2F2F2;
+		border-color: #D8DFEA;
+		border-style: solid;
+		border-width: 1px 1px 1px 3px;
+		width: 90%;
+		margin: 18px auto;
+		overflow: auto;
+		padding-bottom: 7px;
+		padding-left: 10px;
+		padding-top: 7px;
+}
+.clear {
+		clear: both;
+}
+.left {
+		text-align: left;
+}
+.right {
+		text-align: right;
+}
+.center {
+		text-align: center;
+}
+hr {
+		clear: right;
+		margin: 20px 0;
+		background: none repeat scroll 0 0 #D9D9D9;
+		border-width: 0;
+		color: #D9D9D9;
+		height: 1px;
+}
+#header_bar #bar {
+		background: none repeat scroll 0 0 #8d1e19;
+		font-weight: bold;
+		padding-top: 8px;
+		position: fixed;
+		width: 100%;
+		z-index: 999;
+}
+#header_bar #bar #content_bar {
+		-moz-border-bottom-colors: none;
+		-moz-border-image: none;
+		-moz-border-left-colors: none;
+		-moz-border-right-colors: none;
+		-moz-border-top-colors: none;
+		background: none repeat scroll 0 0 #a52a25;
+		border-color: #761410 #761410;
+		border-style: solid solid none;
+		border-width: 1px 1px 0;
+		margin: 0 auto;
+		padding: 0;
+		width: 980px;
+}
+#header_bar #bar, #header_bar #bar a {
+		color: #FFFFFF;
+}
+#header_bar #bar a.logo {
+		border-right: 1px solid #761410;
+		line-height: 0;
+		margin-right: 10px;
+		padding: 7px 20px 9px;
+		float: left;
+}
+#header_bar #bar a.logo img {
+		height: 17px;
+		width: 166px;
+}
+#header_bar #bar a.l {
+		display: block;
+		float: right;
+}
+#header_bar #bar a.l {
+		line-height: 29px;
+		padding: 2px 11px;
+}
+#header_bar #bar a.l:hover, #header_bar #bar a.logo:hover {
+		background: none repeat scroll 0 0 #761612;
+		text-decoration: none;
+}
+#content_body {
+		-moz-border-bottom-colors: none;
+		-moz-border-image: none;
+		-moz-border-left-colors: none;
+		-moz-border-right-colors: none;
+		-moz-border-top-colors: none;
+		background: url('../images/template/bg-content.gif') repeat-y  #FFFFFF;
+		border-color: #D9D9D9 #D9D9D9;
+		border-right: 1px solid #D9D9D9;
+		border-style: none solid solid;
+		border-width: 0 1px 1px;
+		box-shadow: 0 1px 1px #DDDDDD;
+		padding: 42px 0 5px 0;
+		width: 980px;
+		margin: 0 auto 10px auto;
+		position: relative;
+}
+
+#content_right {
+		float: right;
+		width: 750px;
+		padding: 0 10px;
+}
+
+#content_left {
+		position: fixed;
+		width: 206px;
+		padding-top: 30px;
+}
+#setup_img {
+		margin-top: 50px;
+}
+.list_table {
+		width: 90%;
+		border-spacing: 5px;
+		margin: auto;
+		background-color: #F2F2F2;
+		border-bottom: 1px solid #CCCCCC;
+		border-top: 1px solid #CCCCCC;
+		padding: 5px 30px;
+}
+
+.block_button {
+		text-align: right;
+		margin: 20px 0;
+}
+.submit {
+		-moz-border-bottom-colors: none;
+		-moz-border-image: none;
+		-moz-border-left-colors: none;
+		-moz-border-right-colors: none;
+		-moz-border-top-colors: none;
+		background-color: #EEEEEE;
+		background-image: url("../images/template/button.png");
+		background-position: 0 -245px;
+		background-repeat: no-repeat;
+		border-color: #999999 #999999 #888888;
+		border-style: solid;
+		border-width: 1px;
+		box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+		cursor: pointer;
+		display: inline-block;
+		font-size: 11px;
+		font-weight: bold;
+		line-height: normal !important;
+		padding: 2px 6px;
+		text-align: center;
+		text-decoration: none;
+		vertical-align: top;
+		white-space: nowrap;
+}
+.etape_setup {
+		border-top: 1px solid #E5E5E5;
+		font-size: 14px;
+		padding: 5px 10px 5px 30px;
+		color: #999;
+}
+.etape_active {
+		background: url("../images/template/fleche.png") no-repeat scroll right center transparent;
+		color: #333;
+}
+.login {
+		padding-top: 10px;
+		font-size: 20px;
+}

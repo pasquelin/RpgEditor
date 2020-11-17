@@ -1,0 +1,56 @@
+.content_apercu {
+		position: relative;
+		border:1px solid #cccccc;
+		width: 106px;
+		height: 138px;
+		margin: 0 auto;
+}
+
+.content_apercu img {
+		padding:5px;
+		position:absolute;
+		top:auto;
+		left:auto;
+		width:96px;
+		height:128px;
+}
+
+.vignette_character {
+		width: 96px;
+		height: 128px;
+		background-repeat: no-repeat;
+		position: absolute;
+		top:0;
+		left:0;
+}
+
+.vignette_character_face{
+		width: 64px;
+		height: 64px;
+		position: relative;
+		float:left;
+		margin: 10px 17px;
+		overflow: hidden;
+		border:1px solid #CCC;
+}
+
+.vignette_character_face .top {
+		z-index: 3;
+}
+
+.vignette_character_face .front {
+		z-index: 2;
+}
+
+.vignette_character_face .none {
+		z-index: 1;
+}
+
+.vignette_character_face .back {
+		z-index: 0;
+}
+
+.arcordeon_li {
+		max-height: 430px;
+		overflow: auto;
+}

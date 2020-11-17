@@ -1,0 +1,97 @@
+/*Listing tableau ajax*/
+* html .threepxfix {
+	margin-left: 3px;
+}
+.dataTables_wrapper {
+	margin:0;
+	padding-top:10px;
+}
+.dataTables_filter {
+	position:absolute;
+	top:0;
+	right:80px;
+}
+.dataTables_length {
+	position:absolute;
+	top:0;
+	right:0;
+}
+.dataTables_processing {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 250px;
+	height: 30px;
+	margin-left: -125px;
+	margin-top: -15px;
+	padding: 14px 0 2px 0;
+	border: 1px solid #ddd;
+	text-align: center;
+	color: #999;
+	font-size: 14px;
+	background-color: white;
+}
+.dataTables_paginate {
+	float: right;
+	text-align: right;
+	margin-bottom:10px;
+}
+.paginate_disabled_previous, .paginate_enabled_previous, .paginate_disabled_next, .paginate_enabled_next {
+	height: 19px;
+	width: 19px;
+	margin-left: 3px;
+	float: left;
+}
+.dataTables_info {
+	margin:10px 0 10px 0;
+	text-align:right;
+}
+.table-list th {
+	background-color:#FFF;
+	cursor:pointer;
+}
+.sorting_asc {
+	background: url('../images/trie/sort_asc.png') no-repeat center right;
+}
+.sorting_desc {
+	background: url('../images/trie/sort_desc.png') no-repeat center right;
+}
+.sorting {
+	background: url('../images/trie/sort_both.png') no-repeat center right;
+}
+.sorting_asc_disabled {
+	background: url('../images/trie/sort_asc_disabled.png') no-repeat center right;
+}
+.sorting_desc_disabled {
+	background: url('../images/trie/sort_desc_disabled.png') no-repeat center right;
+}
+.clear {
+	clear: both;
+}
+.dataTables_empty {
+	text-align: center;
+}
+.paging_full_numbers {
+	height: 22px;
+	line-height: 22px;
+}
+.paging_full_numbers span.paginate_button, .paging_full_numbers span.paginate_active {
+	padding: 2px 5px;
+	margin: 0 3px;
+	cursor: pointer;
+}
+.paging_full_numbers span.paginate_button {
+	background-color: #ddd;
+}
+.paging_full_numbers span.paginate_button:hover {
+	background-color: #ccc;
+}
+.paging_full_numbers span.paginate_active {
+	background-color: #99B3FF;
+}
+.sorting_1 {
+	background-color:#BAD2BB;
+}
+.picto_list {
+	margin-left:5px;
+}

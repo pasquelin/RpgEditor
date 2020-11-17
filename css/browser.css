@@ -1,0 +1,93 @@
+body, html {
+    overflow: hidden;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: #111111;
+}
+
+body {
+    background: url('../images/template/browser.png') no-repeat center center fixed;
+    background-size: cover; /* Voir aussi "contain" */
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+h1 {
+    display: none;
+}
+
+#logo {
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    margin-left: -482px;
+    z-index: 2;
+}
+
+#barTop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10%;
+    width: 100%;
+    background-color: #000000;
+    z-index: 2;
+    max-height: 100px;
+}
+
+#barBottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10%;
+    width: 100%;
+    background-color: #000000;
+    z-index: 2;
+    max-height: 100px;
+}
+
+#description {
+    position: absolute;
+    right: 20%;
+    top:300px;
+    color: #FFFFFF;
+    font-size: 24px;
+    width: 600px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+ul {
+    padding: 5px 0 0 0;
+    margin: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+li {
+    margin: 20px 0;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+li span {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+li img {
+    vertical-align: middle;
+}

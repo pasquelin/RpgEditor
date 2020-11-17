@@ -1,0 +1,33 @@
+.contentForm {
+	max-height:300px;
+	overflow:auto;
+}
+#facebox td {
+	padding: 3px 0;
+}
+.vignetteAvatar {
+	width:32px;
+	height:32px;
+	margin: 10px auto;
+	background-color:#000;
+	border:1px solid #333;
+	background-repeat:no-repeat;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-box-shadow: 2px 2px 4px #CCC;
+	-webkit-box-shadow: 2px 2px 4px #CCC;
+}
+.avatar_modif {
+	width:32px;
+	height:32px;
+	margin:5px;
+	float:left;
+	border: 1px solid #FFF;
+}
+.avatar_modif:hover {
+	border: 1px solid #CCC;
+}
+.border-rouge {
+		border:1px solid #900;
+		background-color: #FCEFF2;
+}

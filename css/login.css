@@ -1,0 +1,195 @@
+body, html {
+    overflow: hidden;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: #111111;
+}
+
+body {
+    background: url('../images/template/homepage.png') no-repeat center center fixed;
+    background-size: cover; /* Voir aussi "contain" */
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#logo {
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    margin-left: -482px;
+    z-index: 2;
+}
+
+#contentScores {
+    display: none;
+}
+
+#container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: #a6e0d3;
+    background-image: url('../images/template/bg.png');
+}
+
+#form {
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    margin-left: -350px;
+    width: 700px;
+    z-index: 2;
+}
+
+#instruction b {
+    color: #c0271f;
+    font-size: 24px;
+}
+
+#instruction {
+    position: absolute;
+    top: 510px;
+    left: 50%;
+    margin-left: -340px;
+    width: 350px;
+    z-index: 2;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+}
+
+#formBg {
+    float: left;
+    margin-top: 10px;
+}
+
+#formButton {
+    float: right;
+    cursor: pointer;
+}
+
+#username {
+    position: absolute;
+    top: 68px;
+    left: 15px;
+    font-size: 19px;
+    padding: 0;
+    margin: 0;
+    width: 335px;
+}
+
+#password {
+    position: absolute;
+    top: 161px;
+    left: 15px;
+    font-size: 19px;
+    padding: 0;
+    margin: 0;
+    width: 235px;
+}
+
+#send {
+    position: absolute;
+    top: 161px;
+    left: 260px;
+    font-size: 19px;
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    cursor: pointer;
+}
+
+input {
+    background: none;
+    border: 0;
+    outline: none;
+}
+
+input:-webkit-autofill {
+    background-color: rgb(255, 255, 255) !important;
+    background-image: none !important;
+}
+
+#alert {
+    position: absolute;
+    top: 3%;
+    right: 20px;
+    z-index: 2;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#score {
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 30px;
+    color:#ffc000;
+}
+
+table {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-left: -300px;
+    width: 600px;
+    z-index: 2;
+    font-size: 32px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px #000;
+    font-weight: bold;
+}
+
+table .left {
+
+}
+
+table .right {
+    text-align: right;
+}
+
+#return {
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+    right: 20px;
+    z-index: 3;
+}
+
+h1 {
+    display: none;
+}
+
+#barTop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10%;
+    width: 100%;
+    background-color: #000000;
+    z-index: 2;
+    max-height: 100px;
+}
+
+#barBottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10%;
+    width: 100%;
+    background-color: #000000;
+    z-index: 2;
+    max-height: 100px;
+}
